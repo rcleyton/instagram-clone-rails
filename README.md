@@ -1,24 +1,17 @@
-# README
+# Projeto em andamento
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Requerimentos:
 
-Things you may want to cover:
+* Ruby 2.7.2
 
-* Ruby version
+* Rails 6.1.3
 
-* System dependencies
+* Node
 
-* Configuration
+* Yarn
 
-* Database creation
+# Gems
 
-* Database initialization
+* i18n
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* pg
