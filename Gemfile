@@ -11,6 +11,8 @@ gem 'rails', '~> 6.1.3'
 gem 'sass-rails', '>= 6'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'webpacker', '~> 5.0'
+gem "devise-i18n", "~> 1.9"
+gem "devise", "~> 4.7"
 gem "rails-i18n", "~> 6.0"
 
 group :development, :test do
@@ -23,4 +25,5 @@ group :development do
   gem 'listen', '~> 3.3'
   gem 'spring'
 end
+
 
