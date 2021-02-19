@@ -7,7 +7,7 @@ Requerimentos:
 * Node
 * Yarn
 
-# Gems
+Gems
 * devise
 * devise-i18n
 * rails-i18n
