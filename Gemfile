@@ -27,3 +27,5 @@ group :development do
 end
 
 
+
+gem "letter_opener", "~> 1.7"
