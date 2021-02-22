@@ -1,10 +1,10 @@
 <article class="post">
   <header>
     <nav>
-      <%= image_tag "default-avatar.jpg", class: "photo" %>
+      <%= user_avatar(post.created_by) %>
       <h4><%= post.created_by.username %></h4>
     </nav>
-
+ 
     <nav class="actions">
       <div class="action">
         <%= embedded_svg "options.svg"%>
@@ -13,7 +13,7 @@
   </header>
 
   <section class="image">
-    <%= image_tag "https://picsum.photos/600/600?random=1" %>
+    <%= image_tag post.photo %>
   </section>
 
   <div class="details">
